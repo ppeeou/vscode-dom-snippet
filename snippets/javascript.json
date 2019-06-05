@@ -1,21 +1,19 @@
 {
-  "For_Loop": {
+  "Gen": {
     "prefix": "@dom",
     "scope": "javascript",
     "body": [
       "const ${1:dom} = {",
       "\tid: \"@${1:dom}\"",
-      "}",
-      "",
+      "}\n",
       "${1:dom}.tpl = () =>{",
       "\treturn `",
       "<div>",
       "</div>",
       "`;",
-      "}",
-      "",
+      "}\n",
       "export default ${1:dom}"
     ],
-    "description": "For Loop"
+    "description": "gen code"
   }
 }
