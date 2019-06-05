@@ -17,3 +17,10 @@ dom.tpl = () =>{
 export default dom
 
 ```
+
+## publish
+```
+vsce package
+
+vsce publish
+```
