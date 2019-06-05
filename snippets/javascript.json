@@ -1,0 +1,21 @@
+{
+  "For_Loop": {
+    "prefix": "@dom",
+    "scope": "javascript",
+    "body": [
+      "const ${1:dom} = {",
+      "\tid: \"@${1:dom}\"",
+      "}",
+      "",
+      "${1:dom}.tpl = () =>{",
+      "\treturn `",
+      "<div>",
+      "</div>",
+      "`;",
+      "}",
+      "",
+      "export default ${1:dom}"
+    ],
+    "description": "For Loop"
+  }
+}
